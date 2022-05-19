@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
       lat = posicion.coords.latitude;
 
       // ubicacion actual
-      const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=4f6350d8d35448b1f6da59d57466bd59`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=4f6350d8d35448b1f6da59d57466bd59&units=metric`;
 
       // ubicacion por ciudad
       // const url = `https://api.openweathermap.org/data/2.5/weather?q=Bogota&lang=es&units=metric&appid=4f6350d8d35448b1f6da59d57466bd59`;
@@ -36,7 +36,7 @@ window.addEventListener("load", () => {
 
         .then((data) => {
           let temp = Math.round(data.main.temp);
-          temperaturaValor.textContent = `${temp} ºc`;
+          temperaturaValor.textContent = `${temp} ºC`;
 
           let desc = data.weather[0].description;
 

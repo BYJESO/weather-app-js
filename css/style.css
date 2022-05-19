@@ -18,13 +18,58 @@ body {
   background-size: cover;
 }
 
-.container {
+.searchCountry {
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+  background: #f0f8ff;
+  box-shadow: inset 25px 25px 50px #a6abb0, inset -25px -25px 50px #ffffff;
+}
+
+.form-select {
+  width: 70%;
+
+  border-color: #16425b;
+  box-shadow: 16px 16px 24px #0d2736, -16px -16px 24px #1f5d80;
+}
+
+.form-select:hover {
+  border-color: #e6e7ee;
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+}
+
+.btn-search {
+  width: 25%;
+  background: #ffcb47;
+  box-shadow: inset 2px 2px 5px #d4a83b, inset -3px -3px 7px #ffee53;
+}
+
+.btn-search:hover {
+  background-color: #16425b;
+  border: none;
+  color: #ffcb47;
+  background: #16425b;
+  box-shadow: 12px 12px 24px #0d2736, -12px -12px 24px #1f5d80;
+}
+
+.buttons-container {
+  max-width: 370px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 75px;
+  justify-content: space-between;
+}
+
+.weatherContainer {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 400px;
   height: 400px;
-  padding: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   text-align: center;
 
   /* mobile */
