@@ -15,17 +15,12 @@
     <title>Climax</title>
   </head>
   <body>
-    <form class="buttons-container" action="searchForm">
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="pa">Paris</option>
-        <option value="bo">Bogota</option>
-        <option value="ki">Kiev</option>
-        <option value="mo">Montevideo</option>
-        <option value="bu">Buenos Aires</option>
-        <option value="wa">Washington</option>
+    <form class="buttons-container" action="searchForm" id="searchCityForm">
+      <select class="form-select" aria-label="Default select example" id="searchCityInput" required>
+        <option selected value="">Open this select menu</option>
+        
       </select>
-      <input class="btn btn-search" type="submit" value="Search" />
+      <input class="btn btn-search" type="submit" id="search-weather"  value="search" />
     </form>
     <div class="weatherContainer" id="contenedor">
       <div id="caja1">
