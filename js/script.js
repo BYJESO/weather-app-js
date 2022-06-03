@@ -76,7 +76,7 @@ const cityArray = [
   "Djibouti",
   "Dominica",
   "DominicanRepublic",
-  "Ecuador",
+  "Quito",
   "Egypt",
   "ElSalvador",
   "EquatorialGuinea",
